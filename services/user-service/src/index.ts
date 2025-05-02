@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { sequelize } from './config/database';
+import  sequelize from './config/database';
 import { userRoutes } from './routes/user.routes';
 import { User, UserRole } from './models/user.model';
 
