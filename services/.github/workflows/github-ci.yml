@@ -2,9 +2,9 @@ name: Build and Test Backend Services
 
 on:
   push:
-    branches: [ main ]
+    branches: [ devops ]
   pull_request:
-    branches: [ main ]
+    branches: [ devops ]
 
 jobs:
   build:
