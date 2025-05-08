@@ -22,8 +22,6 @@ class BillingRecord extends Model<BillingRecordAttributes> implements BillingRec
   public consumption!: number;
   public totalAmount!: number;
   public details!: object;
-  // public createdAt!: Date;
-  // public updatedAt!: Date;
 }
 
 BillingRecord.init(

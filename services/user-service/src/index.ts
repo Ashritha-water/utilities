@@ -25,7 +25,7 @@ sequelize.authenticate()
     // Sync both models with the database
     return sequelize.sync({
       alter: true,
-      force: process.env.NODE_ENV === 'development'
+      // force: process.env.NODE_ENV === 'development'
     })
     .then(() => {
       console.log('Database synchronization completed');

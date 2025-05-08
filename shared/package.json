@@ -1,0 +1,21 @@
+{
+    "name": "@utilities/shared-auth",
+    "version": "1.0.0",
+    "description": "Shared authentication library for microservices",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "jsonwebtoken": "^9.0.0"
+    },
+    "peerDependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/jsonwebtoken": "^9.0.9"
+    }
+}

@@ -2,13 +2,15 @@
   "compilerOptions": {
     "target": "es2020",
     "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "outDir": "../../dist/services/user-service",
+    "paths": {
+      "@shared/*": ["../../shared/src/*"]
+    },
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*","../../shared/src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
